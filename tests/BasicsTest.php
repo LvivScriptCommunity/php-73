@@ -40,9 +40,9 @@ class BasicsTest extends TestCase
         // TODO (bool) 0
 
         // Strings
-        // TODO (bool) ""
-        // TODO (bool) "false"
-        // TODO (bool) "not empty string"
+        // TODO (bool) ''
+        // TODO (bool) 'false'
+        // TODO (bool) 'not empty string'
 
         // Arrays
         // TODO (bool) []
@@ -93,7 +93,7 @@ class BasicsTest extends TestCase
      */
     public function testTypeJuggling()
     {
-        $foo = "1";
+        $foo = '1';
         $this->assertIsString($foo);
 
         $foo *= 2;
@@ -101,8 +101,8 @@ class BasicsTest extends TestCase
 
         // TODO $foo = $foo * 1.3;
 
-        // TODO $foo = 5 * "10 Little Piggies";
+        // TODO $foo = 5 * '10 Little Piggies';
 
-        // TODO $foo = 5 * "10 Small Pigs";
+        // TODO $foo = 5 * '10 Small Pigs';
     }
 }
