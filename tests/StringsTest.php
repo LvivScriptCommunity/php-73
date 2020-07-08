@@ -74,7 +74,7 @@ class StringsTest extends TestCase
         // strpos — Find the position of the first occurrence of a substring in a string
         // TODO to be implemented
 
-        // strstr — Find the position of the first occurrence of a substring in a string
+        // strstr — Find the first occurrence of a string
         // TODO to be implemented
 
         // strrchr — Find the last occurrence of a character in a string

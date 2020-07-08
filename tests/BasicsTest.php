@@ -101,8 +101,8 @@ class BasicsTest extends TestCase
 
         // TODO $foo = $foo * 1.3;
 
-        // TODO $foo = 5 * '10 Little Piggies';
+        // TODO $foo = 5 * (int) '10 Little Piggies';
 
-        // TODO $foo = 5 * '10 Small Pigs';
+        // TODO $foo = 5 * (int) '10 Small Pigs';
     }
 }
